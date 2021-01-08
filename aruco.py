@@ -3,7 +3,7 @@ import cv2
 
 
 aruco_dict = cv2.aruco.getPredefinedDictionary(cv2.aruco.DICT_4X4_50)
-# cv2.imwrite('aruco_4_0.png', cv2.aruco.drawMarker(aruco_dict, 0, 6))
+cv2.imwrite('aruco_4_2.png', cv2.aruco.drawMarker(aruco_dict, 2, 6))
 parameters = cv2.aruco.DetectorParameters_create()
 
 
